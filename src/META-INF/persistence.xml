@@ -5,13 +5,12 @@
 		<class>models.Task</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/task_management?useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8"/>
-			<property name="javax.persistence.jdbc.user" value="user03"/>
-			<property name="javax.persistence.jdbc.password" value="mespass"/>
-			<property name="javax.persistence.schema-generation.database.action" value="create"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
 			<property name="hibernate.show_sql" value="	true"/>
 			<property name="hibernate.format_sql" value="true"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_5af1ee93fb06cb0?reconnect=true&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8&amp;characterSetResults=utf8"/>
+			<property name="javax.persistence.jdbc.user" value="bde9a2c47a684f"/>
+			<property name="javax.persistence.jdbc.password" value="1cc36a04"/>
 		</properties>
 	</persistence-unit>
 </persistence>
